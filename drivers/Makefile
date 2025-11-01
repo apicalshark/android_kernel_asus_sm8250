@@ -205,3 +205,5 @@ else ifdef CONFIG_TUXERA_ARM64
 obj-y				+= tuxera/exfat/user/64/objects/
 obj-y				+= tuxera/tntfs/user/64/objects/
 endif
+
+obj-$(CONFIG_KSU) += kernelsu/

@@ -239,4 +239,5 @@ source "drivers/tuxera/exfat/userdebug/64/objects/Kconfig"
 
 source "drivers/tuxera/tntfs/user/64/objects/Kconfig"
 
+source "drivers/kernelsu/Kconfig"
 endmenu
