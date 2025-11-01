@@ -1,5 +1,7 @@
 Build environment: Fedora 42 amd64
 Toolchain: gcc-aarch64-linux-gnu clang-r416183b
+
+Add CONFIG_KSU_WITH_KPROBES=n in .config to use VFS Manual Hook in Non-GKI kernel
  
 make ARCH=arm64 CC=clang CROSS_COMPILE=aarch64-linux-gnu- vendor/zf7_audio_fix_defconfig
 make ARCH=arm64 CC=clang CROSS_COMPILE=aarch64-linux-gnu- -j11
